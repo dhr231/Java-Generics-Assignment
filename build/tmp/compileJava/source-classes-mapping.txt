@@ -1,0 +1,2 @@
+com/bridgelabz/assignment/generics.java
+ com.bridgelabz.assignment.generics
