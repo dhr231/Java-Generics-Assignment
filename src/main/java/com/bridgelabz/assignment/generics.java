@@ -15,6 +15,14 @@ public class generics {
         return max;
 
     }
+    public static String maximumString(String n1,String n2, String n3){
+        String max=n1;
+        max=(n2.compareTo(max)==1) ? n2:max;
+        max=(n3.compareTo(max)==1) ? n3:max;
+        return max;
+
+    }
+
 
     public static void main(String[] args) {
 //        maximumInt(Integer n1, Integer n2, Integer n3);
